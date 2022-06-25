@@ -16,8 +16,6 @@
    # Output:
    # simple interest = p*t*r
    
-   #Fixing the typo
-
    echo "Enter the principal:"
    read p
    echo "Enter rate of interest per year:"
@@ -28,3 +26,5 @@
    s=`expr $p \* $t \* $r / 100`
    echo "The simple interest is: "
    echo $s
+
+#Fix the typo
